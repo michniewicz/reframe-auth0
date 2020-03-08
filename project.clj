@@ -1,8 +1,8 @@
 (defproject reframe-auth0 "0.1.0-SNAPSHOT"
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.229"]
-                 [reagent "0.6.0"]
-                 [re-frame "0.9.2"]
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [org.clojure/clojurescript "1.10.597"]
+                 [reagent "0.10.0"]
+                 [re-frame "0.12.0"]
                  [cljsjs/auth0-lock "10.16.0-0"]]
 
   :plugins [[lein-cljsbuild "1.1.4"]]
@@ -17,9 +17,9 @@
 
   :profiles
   {:dev
-   {:dependencies [[binaryage/devtools "0.8.2"]]
+   {:dependencies [[binaryage/devtools "0.9.11"]]
 
-    :plugins      [[lein-figwheel "0.5.9"]]
+    :plugins      [[lein-figwheel "0.5.18"]]
     }}
 
   :cljsbuild
